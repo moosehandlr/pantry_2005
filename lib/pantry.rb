@@ -4,7 +4,7 @@ class Pantry
    @stock = {}
  end
 
- def stock_check
-   
+ def stock_check(ingredient)
+   @stock.count
  end
 end
