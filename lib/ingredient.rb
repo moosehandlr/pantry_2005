@@ -1,5 +1,5 @@
 class Ingredient
-  def initialize(argument)
-    @argument = argument
+  def initialize(ingredient_info)
+    @name = ingredient_info[:name]
   end
 end
