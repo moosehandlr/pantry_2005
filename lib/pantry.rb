@@ -8,7 +8,7 @@ class Pantry
    @stock.count
  end
 
- def restock
+ def restock(ingredient, count)
 
  end
 end
