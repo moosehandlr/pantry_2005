@@ -7,4 +7,8 @@ class Pantry
  def stock_check(ingredient)
    @stock.count
  end
+
+ def restock
+
+ end
 end
