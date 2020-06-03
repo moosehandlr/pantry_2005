@@ -5,12 +5,16 @@ class Pantry
  end
 
  def stock_check(ingredient)
-   @stock.map do |ingr|
-     ingr.values.sum == ingredient
-   end.count
- end
+   @stock.include?(ingredient)
+    @stock.map do |contents|
+      contents[1]
+    end
+  end
+
 
  def restock(ingredient, count)
    @stock[ingredient] = count
  end
+
+
 end
